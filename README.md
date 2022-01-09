@@ -40,3 +40,5 @@ $ yarn add my-lib
 ```
 
 Now my-lib-examples can reference exports from my-lib and VSCode can follow the definitions.
+
+Final conclusions: sometimes it didn't work, I still don't know why. Perhaps due to a global cache somewhere in the system.

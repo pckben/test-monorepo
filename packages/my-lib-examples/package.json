@@ -1,6 +1,5 @@
 {
   "name": "my-lib-examples",
-  "private": true,
   "dependencies": {
     "my-lib": "workspace:^",
     "typescript": "^4.5.4"

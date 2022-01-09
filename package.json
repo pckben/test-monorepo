@@ -1,14 +1,8 @@
 {
   "name": "test-monorepo",
-  "private": true,
   "packageManager": "yarn@3.1.1",
-  "scripts": {
-    "compile": "tsc --build --force tsconfig.json",
-    "clean": "rm -rf packages/my-lib/dist packages/my-lib-examples/dist"
-  },
   "workspaces": [
-    "packages/my-lib",
-    "packages/my-lib-examples"
+    "packages/*"
   ],
   "dependencies": {
     "typescript": "^4.5.4"
