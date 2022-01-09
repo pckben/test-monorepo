@@ -1,0 +1,11 @@
+{
+  "references": [
+    { "path": "packages/my-lib" },
+    { "path": "packages/my-lib-examples" }
+  ],
+  "files": [],
+  "include": [],
+  "exclude": [
+    "**/node_modules"
+  ]
+}

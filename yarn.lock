@@ -9,12 +9,12 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "my-lib-examples@workspace:packages/my-lib-examples"
   dependencies:
-    my-lib: "workspace:^"
+    my-lib: 0.0.1
     typescript: ^4.5.4
   languageName: unknown
   linkType: soft
 
-"my-lib@workspace:^, my-lib@workspace:packages/my-lib":
+"my-lib@0.0.1, my-lib@workspace:packages/my-lib":
   version: 0.0.0-use.local
   resolution: "my-lib@workspace:packages/my-lib"
   dependencies:
@@ -25,6 +25,8 @@ __metadata:
 "test-monorepo@workspace:.":
   version: 0.0.0-use.local
   resolution: "test-monorepo@workspace:."
+  dependencies:
+    typescript: ^4.5.4
   languageName: unknown
   linkType: soft
 
