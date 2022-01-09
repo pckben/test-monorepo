@@ -1,10 +1,8 @@
 {
   "name": "my-lib-examples",
   "private": true,
-  "main": "dist/index",
-  "types": "dist/index",
   "dependencies": {
-    "my-lib": "0.0.1",
+    "my-lib": "workspace:^",
     "typescript": "^4.5.4"
   }
 }

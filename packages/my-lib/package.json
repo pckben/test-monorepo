@@ -2,8 +2,7 @@
   "name": "my-lib",
   "version": "0.0.1",
   "private": true,
-  "main": "dist/index",
-  "types": "dist/index",
+  "main": "src/index.ts",
   "dependencies": {
     "typescript": "^4.5.4"
   }
